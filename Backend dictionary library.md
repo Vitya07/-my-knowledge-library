@@ -42,7 +42,7 @@ GET /users        → получить список
 POST /users       → создать пользователя
 GET /users/1      → получить пользователя по ID
 DELETE /users/1   → удалить пользователя
-
+```
 <img width="1073" height="161" alt="image" src="https://github.com/user-attachments/assets/d7cd3c91-234f-4102-8a88-d3e534c3db74" />
 
 
