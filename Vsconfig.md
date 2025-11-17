@@ -16,7 +16,6 @@
 | `<Space>f`      | Форматировать файл                            |
 | `<Space>r`      | Переименовать символ (умно, через LSP)        |
 | `<Space>e`      | Закрыть/открыть боковую панель                |
-| `<Space>E`      | Открыть проводник (Explorer)                  |
 | `<Space>q`      | Закрыть текущую вкладку                       |
 | `<Space>/`      | Поиск по всем файлам проекта                  |
 | `<Space>s`      | Замена по всем файлам                         |
@@ -187,10 +186,10 @@
       "commands": ["workbench.action.toggleSidebarVisibility"]
     },
     // Открыть проводник (гарантированно)
-    {
-      "before": ["<leader>", "E"],
-      "commands": ["workbench.view.explorer"]
-    },
+    //{
+      //"before": ["<leader>", "E"],
+      //"commands": ["workbench.view.explorer"]
+   // },
     // Закрыть вкладку
     {
       "before": ["<leader>", "q"],
