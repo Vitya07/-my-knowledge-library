@@ -20,7 +20,7 @@
 | `<Space>/`      | Поиск по всем файлам проекта                  |
 | `<Space>s`      | Замена по всем файлам                         |
 | `<Space>b`      | Быстрое открытие файла (fuzzy search)         |
-| `<Space>w`      | Сохранить все открытые файлы                  |
+| `CTRL + S`      | Сохранит файл            |
 
 ---
 
@@ -211,10 +211,10 @@
       "commands": ["workbench.action.quickOpen"]
     },
     // Сохранить всё
-    {
-      "before": ["<leader>", "w"],
-      "commands": ["workbench.action.files.saveAll"]
-    }
+    //{
+      //"before": ["<leader>", "w"],
+      //"commands": ["workbench.action.files.saveAll"]
+   //}
   ]
 }
 ```
